@@ -1,5 +1,12 @@
 # Surfing West Coast of Ireland
 
+This is a static front-end website and it is designed to convey specific and helpful information in regards to surfing
+in Ireland. In particular, this website is to promote surfing in Ireland as an international tourist destination as well
+raise awareness to people in Ireland who maybe considering trying surfing. The website will provide information for the
+top 4 surfing locations in the West of Ireland. This will include locations of beaches, links to schools and travel times
+from Galway city.
+
+
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
