@@ -84,23 +84,15 @@ body{
     height: 600px;
 }
 
-#top-right{
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+dropdown{
+    margin-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 30px; 
 }
 
-#top-left{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
 
-#lower-left{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
+
+
 
 p{
     position: relative;
