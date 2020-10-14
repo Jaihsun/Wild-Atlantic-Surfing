@@ -79,6 +79,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+https://extra.ie/2020/07/24/sponsored/wild-atlantic-way-surf-spots
+https://irishminibreaks.ie/surf-the-west-coast.html
 
 ### Media
 - The photos used in this site were obtained from ...
@@ -88,7 +90,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+https://extra.ie/2020/07/24/sponsored/wild-atlantic-way-surf-spots
 
 
 
