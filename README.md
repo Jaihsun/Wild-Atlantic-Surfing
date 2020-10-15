@@ -82,6 +82,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 https://extra.ie/2020/07/24/sponsored/wild-atlantic-way-surf-spots
 https://irishminibreaks.ie/surf-the-west-coast.html
 https://discoverbundoran.com/surfing/
+https://outsider.ie/ireland/hidden-surf-spots-ireland/
 
 ### Media
 - The photos used in this site were obtained from ...
