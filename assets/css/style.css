@@ -11,7 +11,9 @@ header {
 /*--images--------------------------------------------------------------------------------------------------------------- */
 .hero-image{
     width: 100%;
-    height: auto;
+    height: 600px;
+    padding-right: 100px;
+    padding-left: 100px;
     float: center;
     background-size: cover;
     background-position: center;
@@ -105,3 +107,5 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+
