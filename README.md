@@ -1,4 +1,4 @@
-# Surfing West Coast of Ireland
+# Wild Atlantic Surfing
 
 This is a static front-end website and it is designed to convey specific and helpful information in regards to surfing
 in Ireland. In particular, this website is to promote surfing in Ireland as an international tourist destination as well
@@ -89,6 +89,7 @@ https://outsider.ie/ireland/hidden-surf-spots-ireland/
 
 #hero image 
 (https://www.irishcentral.com/travel/best-of-ireland/australian-makes-stunning-video-about-surfing-in-ireland link)
+https://fontawesome.com/v4.7.0/icon/facebook-official
 
 ### Acknowledgements
 

@@ -111,13 +111,35 @@ body{
     margin-right: 30px;
 }
 
-footer{
+/*--Footer styling-------------------------------------------------------------------------------------------------------- */
+.container-fluid{
+    float: right;
     background-color:#7777;
+    height: 150px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
 }
+
+.footer-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.social-networks li{
+    text-align: center;
+    
+   
+}
+
+.social-networks i{
+    font-size: 160%;
+}
+
+
+
 
 /*--Responsiveness-------------------------------------------------------------------------------------------------------- */
 
