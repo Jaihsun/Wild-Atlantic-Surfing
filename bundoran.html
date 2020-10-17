@@ -16,6 +16,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--jQuery fancybox------------------------------------------------------------------------------------------------------------->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../source/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="jquery.mousewheel.js"></script>
+
 
     <title>Wild Atlantic Surfing</title>
 </head>
@@ -25,37 +30,35 @@
 
 
     <header>
-    <div>
-    <a href="index.html">
-        <h2 id="logo">Wild Atlantic Surfing</h2>
-    </a>    
-</div>
+
 <!--logo and navigation bar------------------------------------------------------------------------------------------------>
 
-<nav class="nav-bar">
-
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" href="index.html">Home</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Surfing Beaches</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="bundoran.html">Bundoran, Co. Donegal</a>
-      <a class="dropdown-item" href="mullaghmore.html">Mullaghmore, Co. Sligo</a>
-      <a class="dropdown-item" href="doolin.html">Doolin Point, Co. Clare</a>
-      <a class="dropdown-item" href="ballybunion.html">Ballybunion, Co. Kerry</a>
-
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Gallery</a>
-    </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
-  </li>
-  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><h2>Wild Atlantic Surfing</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    </li>
+<li class="nav-item">
+        <a class="nav-link" href="bundoran.html">Bundoran, Co. Donegal</a>
+    </li>
+<li class="nav-item">
+        <a class="nav-link" href="ballybunion.html">Ballybunion, Co. Kerry</a>
+    </li>
+<li class="nav-item">
+        <a class="nav-link" href="mullaghmore.html">Mullaghmore, Co. Sligo</a>
+    </li>
+<li class="nav-item">
+        <a class="nav-link" href="doolin.html">Doolin Point, Co. Clare</a>
+    </li>
 </ul>
+  </div>
 </nav>
+
     </header>
 
 <!--Header-Hero-image------------------------------------------------------------------------------------------------------->
@@ -68,13 +71,35 @@
 <!--1st paragraph----------------------------------------------------------------------------------------------------------->
 <section class="1st-paragraph">
 
-        <p>With the right weather, the north, south, and west coasts of Ireland can be home to some of the best surfing waves
-         in the world. Gulf Stream storm activity generates large swells all year round, but the best times for surfing are in 
-         early summer or throughout the autumn months when the water temperature reaches its peak at about 17 degrees Celsius. 
-         In winter, wind from close-range North Atlantic storms, water temperature below 8 degrees and inclement weather make 
-         winter surfing a much tougher proposition and only for the truly dedicated.</p>
+<h2>Bundoran, Co. Donegal</h2>
+
+        <p>Surfing has become synonymous with Bundoran in the past number of years. 
+    Its growing popularity has helped to extend the normal Easter to September holiday
+     season to all year round as surfers travel from all over the country and all over the world
+      to experience the diverse natural amenities that Ireland’s Premier Seaside Resort has to offer. 
+      Any weekend in any month, be it the middle of summer or the dead of winter, you’ll generally find
+       somewhere to go surfing in Bundoran or its surrounds with countless beach and reef breaks to be 
+       found in close proximity.
+        
+        </p>
 </section>
 
-    
+
+<!-- Bootstrap footer section ---------------------------------------------------------------------------------------------->
+<section class="footer">
+<footer class="container-fluid">
+   
+
+<div class="row">
+  <div class="col"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></div>
+  <div class="col"><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+  <div class="col"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+  <div class="col"><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+</div>
+
+</footer> 
+</section>   
+
+   
 </body>
 </html>
