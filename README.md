@@ -84,6 +84,7 @@ https://irishminibreaks.ie/surf-the-west-coast.html
 https://discoverbundoran.com/surfing/
 https://outsider.ie/ireland/hidden-surf-spots-ireland/
 
+
 ### Media
 - The photos used in this site were obtained from ...
 

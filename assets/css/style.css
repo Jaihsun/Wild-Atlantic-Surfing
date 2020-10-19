@@ -161,3 +161,7 @@ body{
   h2.responsive {
     font-size: 24px;
   }
+
+@media screen and (max-width:1393px){
+
+}
