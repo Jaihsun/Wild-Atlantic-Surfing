@@ -17,9 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!--jQuery fancybox------------------------------------------------------------------------------------------------------------->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../source/jquery.fancybox.js"></script>
-    <script type="text/javascript" src="jquery.mousewheel.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
 
 
     <title>Wild Atlantic Surfing</title>
@@ -32,32 +31,26 @@
     <header>
 
 <!--logo and navigation bar------------------------------------------------------------------------------------------------>
+ <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><h2>Wild Atlantic Surfing</h2></a>
+            <a class="nav-link ml-auto" href="index.html">Home <span class="sr-only">(current)</span>        
+            </a>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><h2>Wild Atlantic Surfing</h2></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-    </li>
-<li class="nav-item">
-        <a class="nav-link" href="bundoran.html">Bundoran, Co. Donegal</a>
-    </li>
-<li class="nav-item">
-        <a class="nav-link" href="ballybunion.html">Ballybunion, Co. Kerry</a>
-    </li>
-<li class="nav-item">
-        <a class="nav-link" href="mullaghmore.html">Mullaghmore, Co. Sligo</a>
-    </li>
-<li class="nav-item">
-        <a class="nav-link" href="doolin.html">Doolin Point, Co. Clare</a>
-    </li>
-</ul>
-  </div>
-</nav>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Surfing Beaches
+                    </a>
+            <div class="dropdown-menu-right">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bundoran.html">Bundoran, Co. Donegal</a>
+                <a class="dropdown-item" href="ballybunion.html">Ballybunion, Co. Kerry</a>
+                <a class="dropdown-item" href="mullaghmore.html">Mullaghmore, Co. Sligo</a>
+                <a class="dropdown-item" href="doolin.html">Doolin Point, Co. Clare</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
 
     </header>
 
@@ -86,23 +79,35 @@
 
 <!--Fancybox---------------------------------------------------------------------------------------------------------------->
 <section class="fancybox">
-    <div>
-<a href="assets/images/bd1.jpg" data-fancybox="images" data-caption="1" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bd1.jpg" alt="" /></a>
+<div>
+    <div class="row">
+    <div class="col-lg-3">
+        <a href="assets/images/bd1.jpg" data-fancybox="images" data-caption="1" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
+	    <img class="img-fluid" src="assets/images/bd1.jpg" alt="" /></a>
+    </div>
 
-<a href="assets/images/bd2.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bd2.jpg" alt="" /></a>
+    <div class="col-lg-3">
+        <a href="assets/images/bd2.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
+	    <img class="img-fluid" src="assets/images/bd2.jpg" alt="" /></a>
+    </div>
 
-<a href="assets/images/bd3.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bd3.jpg" alt="" /></a>
+    <div class="col-lg-3">
+        <a href="assets/images/bd3.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
+	    <img class="img-fluid" src="assets/images/bd3.jpg" alt="" /></a>
+    </div>
 
-<a href="assets/images/bd4.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bd4.jpg" alt="" /></a>
+    <div class="col-lg-3">
+        <a href="assets/images/bd4.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
+	    <img class="img-fluid" src="assets/images/bd4.jpg" alt="" /></a>
+    </div>
 
-<a href="assets/images/bd5.png" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bd5.png" alt="" /></a>
+    <div class="col-lg-3">
+        <a href="assets/images/bd5.png" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
+	    <img class="img-fluid" src="assets/images/bd5.png" alt="" /></a>
+    </div>
 
     </div>
+</div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>

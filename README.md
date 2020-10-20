@@ -111,5 +111,14 @@ https://extra.ie/2020/07/24/sponsored/wild-atlantic-way-surf-spots
 https://fontawesome.com/v4.7.0/icon/facebook-official
 https://www.discoverireland.ie/wild-atlantic-way/things-to-do
 https://wildatlanticsurfboards.com/
+https://lookwest.ie
+https://www.georgekarbusphotography.com/portfolio/riding-giants/
+https://www/clareecho.ie
+https://sleepzone.ie
+https://independent.ie
+https://kilmallockcu.ie
+https://pintrest.com
+https://irishtimes.com
+https://discoverbundoran.com
 
 
