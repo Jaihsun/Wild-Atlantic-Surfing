@@ -6,19 +6,21 @@ raise awareness to people in Ireland who maybe considering trying surfing. The w
 top 4 surfing locations along the atlantic coast of the West of Ireland. This will include locations of beaches, a frequently
 asked questions section, a gallery below the individual webpage.
 
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+ This website is to promote and provide useful infomration for the surfing community based in Ireland. The website was 
+ designed with the user experience in mind. Breathtaking pictures were chosen to show the raw unfilterd beauty of the some
+ of the best surfing beaches along the Atlantic way. More specifically, the website was targeted on millenials age group and lower.
+In this covid-19 era and current travel restrictions, people are waking up the great outdoors which has been on their doorstep.
+A wire frame mockup using **Balsamiq** was used to develope the intial site layout. If a person living in the Ireland was so inclined
+go for a drive and emerse themselves in nature through surfing. Based on their location, they have the locatiions and background information
+on 4 potential surfing locations. The color green was chosen to simulate seaweed.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+Please see attached the mock for the MS1 wild atlantic surfing.
+Atmittedly, the project did change from the initial web design.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+<<Wild Atlantic Surfing.zip>>
 
 ## Features
 
@@ -36,6 +38,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - Create animation zoom in feature on the hero images for each webpage.
 - Write over the hero images some useful information about the site.
 - Align navigation bar to the right of screen.
+- Possibly a google maps showing the locations of the beaches etc. 
 
 
 ## Technologies Used
@@ -58,35 +61,38 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testting was conducted throughtout the project. In order to ensure that the code that was being written was correct from the section
+of the project, the code was displayed in a new tab. This allowed to continual checking the desired structure of the varous webpages
+were created as intended. The **Gitpod** has an inbuilt checking mechanism for completing missing tags on various elements. Similarly,
+the css was constantly checked by using the checking tool within **Gitpod** and monitoring the outputs on the front end. The links
+for each webpage, including the navbars for each page and the social media links, the read more buttons, the frequently asked questions
+were checked and rechecked to ensure that it was working properly. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The f12 tools interface provided an instant checking opportunity for encountered quality issues on the project. This allowed the underlying
+issues to be narrowed downs and then they could be resolved. In addtion, the website responsiveness could be viewed on multiple
+platforms. The mobile first design philosophy was followed in this project. The webpage was tested on multiple gadgets such as smart phones,
+tablets and laptops. The website was also viewed on multiple browsers such Chrome and safari for e.g.The Css and html code was also
+analysed by the W3 validator for review.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This static website was developed on **Githpod** and hosted and deployed on **Github**.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+In order to depoly the following steps were taken;
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- 1) Setup a github repository account 
+- 2) Use a terminal git client
+- 3) Clone the repository. Go to the folder where you want to store your project, and clone the new repository
+- 4) Enter the project folder and add an index.html file
+- 5) Add, commit, and push your changes to the git push origin master
+- 6) Provided the files are up to date. Go to github repository --> select settings --> Github Pages --> generate link 
+- 7) Once that link is generated, click on it and the website should open on a browser. The website has been deployed
+    through github pages.
 
+
+Please find below a link to the mile stone project website "Wild Atlantic Surfing".
+
+<< https://jaihsun.github.io/Wild-Atlantic-Surfing/>>
 
 ## Credits
 
@@ -120,5 +126,8 @@ https://kilmallockcu.ie
 https://pintrest.com
 https://irishtimes.com
 https://discoverbundoran.com
+https://www.codecademy.com/articles/f1-u3-github-pages
+https://www.w3schools.com/
+https://pages.github.com/
 
 
