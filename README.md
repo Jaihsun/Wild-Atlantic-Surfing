@@ -3,8 +3,8 @@
 This is a static front-end website and it is designed to convey specific and helpful information in regards to surfing
 in Ireland. In particular, this website is to promote surfing in Ireland as an international tourist destination as well
 raise awareness to people in Ireland who maybe considering trying surfing. The website will provide information for the
-top 4 surfing locations in the West of Ireland. This will include locations of beaches, links to schools and travel times
-from Galway city.
+top 4 surfing locations along the atlantic coast of the West of Ireland. This will include locations of beaches, a frequently
+asked questions section, a gallery below the individual webpage.
 
 
 One or two paragraphs providing an overview of your project.
@@ -33,15 +33,28 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Create animation zoom in feature on the hero images for each webpage.
+- Write over the hero images some useful information about the site.
+- Align navigation bar to the right of screen.
+
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    - The project uses **JQuery** fancybox to showcase photographs on the 4 web pages.
+- [Bootstrap](https://bootstrap.com)
+    - The project used **Bootstrap** navbar in the header section to faciliate site navigation throughout the site.
+    The use of **Bootstrap** grids were also extensively used in addition to the HTML/HTML5 to create the site structure 
+    mainly with paragraphs. The use of **Bootstrap** buttons were also used to link between the home page and the other
+    web pages as "Read More" option. The use of the **Bootstrap** dropdown accordion feature was used to create a frequently
+    asked questions section. Also a copywrite section was created below the footer using **Bootsrap**.
+- [GoogleFonts](https://googelfonts.com)
+    - The use of **Googlefonts** was used to import Oswald text into the css file to used as a custom text on the website.
+- [Font Awesome](https://fontawesome.com)
+    - The use of **FontAwesome** was used as a library to import social media icon for Twitter, Facebook, YouTube and Instagram.
+    These icons were imported and could be used as hyperlinks to these websites. 
 
 ## Testing
 
@@ -90,12 +103,13 @@ https://outsider.ie/ireland/hidden-surf-spots-ireland/
 
 #hero image 
 (https://www.irishcentral.com/travel/best-of-ireland/australian-makes-stunning-video-about-surfing-in-ireland link)
-https://fontawesome.com/v4.7.0/icon/facebook-official
+
 
 ### Acknowledgements
 
 https://extra.ie/2020/07/24/sponsored/wild-atlantic-way-surf-spots
-
-
+https://fontawesome.com/v4.7.0/icon/facebook-official
+https://www.discoverireland.ie/wild-atlantic-way/things-to-do
+https://wildatlanticsurfboards.com/
 
 

@@ -67,6 +67,10 @@ h4{
     font-size: 280;
 }
 
+.dropdown-menu-right{
+        float: right;
+}
+
 body{
     font-family: "Oswald",sans-serif;
     color: #777777;
