@@ -1,54 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap:100,200,300,400,500,600,700');
-
-  
 
 header {
     margin:0;
 }
 
-
 /*--images styling--------------------------------------------------------------------------------------------------------- */
 .hero-image{
     width: 100%;
-    height: 600px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-right: 100px;
-    padding-left: 100px;
-    float: center;
+    position: center;
     background-size: cover;
     background-position: center;
     background: no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 .hero-image2{
-    width: 55%;
-    height: 70%;
+    width: 100%;
     background: no-repeat right right;
     margin-bottom: 30px;
 }
 
 .hero-image3{
-    width: 55%;
-    height: 168px;
+    width: 100%;
     background: no-repeat right right;
     margin-bottom: 30px;
 }
+
+.bundoran-image{
+    width: 10%;
+    height: 200px;
+    background: no-repeat center center;
+}
+
+.bundoran-image
+
 /*--header styling-------------------------------------------------------------------------------------------------------- */
 h2{
-    font-family: oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     color: rgb(39, 133, 101);
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-left: 10px;
+    margin-left: auto;
 }
 
 h3{
-   font-family: oswald, sans-serif;
+   font-family: "Oswald", sans-serif;
     color:  rgb(39, 133, 101);
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -58,7 +53,7 @@ h3{
 }
 
 h4{
-   font-family: oswald, sans-serif;
+   font-family: "Oswald", sans-serif;
     color:  rgb(39, 133, 101);
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -73,42 +68,34 @@ h4{
 }
 
 body{
-    font-family: oswald,sans-serif;
+    font-family: "Oswald",sans-serif;
     color: #777777;
     text-align: center;
     font-size: 16px;
     
 }
 /*--Paragraph styling------------------------------------------------------------------------------------------------------ */
+
+
 .p1{
-    position: relative;
+    max-width: 90%;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right:100px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
+
 .p2{
-    padding-top: 0px;
     padding-bottom: 30px;
-    padding-right: 0px;
-    padding-left: 100px;
     text-align: left;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
 }
 
 .p3{
-    padding-top: 0px;
     padding-bottom: 30px;
-    padding-right: 0px;
-    padding-left: 100px;
     text-align: left;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
 }
 
 .p4{
@@ -118,12 +105,12 @@ body{
 }
 
 /*--Fancybox styling------------------------------------------------------------------------------------------------------- */
-.fancybox{
+/* .fancybox{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 2%;
-}
+} */
 
 /*--Footer styling-------------------------------------------------------------------------------------------------------- */
 .container-fluid{
@@ -145,23 +132,17 @@ body{
 .social-networks li{
     text-align: center;
     
-   
 }
 
 .social-networks i{
     font-size: 160%;
 }
 
-
+.contact-list{
+    float: right;
+}
 
 
 /*--Responsiveness-------------------------------------------------------------------------------------------------------- */
 
-@media (max-width:600px) {
-  h2.responsive {
-    font-size: 24px;
-  }
 
-@media screen and (max-width:1393px){
-
-}

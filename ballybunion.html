@@ -5,14 +5,6 @@
 
 <head>
 
-<!-- Optionally add helpers - button, thumbnail and/or media -->
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
 <!--required meta tages----------------------------------------------------------------------------------------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,13 +13,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 <!--jQuery css-------------------------------------------------------------------------------------------------------------->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
 
 <!-- jQuery fancyBox ---------------------------------------------------------------------------------------------------------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
 
     <title>Wild Atlantic Surfing</title>
@@ -95,27 +84,29 @@
 
 <!--Fancybox---------------------------------------------------------------------------------------------------------------->
 <section class="fancybox">
-    <div>
-<a href="assets/images/bk1.jpg" data-fancybox="images" data-caption="1" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bk1.jpg" alt="" /></a>
+    <a href="assets/images/bk1.jpg" data-fancybox="images" data-caption="1">
+        <img src="assets/images/bk1.jpg" alt="" />
+    </a>
 
-<a href="assets/images/bk2.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bk2.jpg" alt="" /></a>
+    <a href="assets/images/bk2.jpg" data-fancybox="images" data-caption="2">
+        <img src="assets/images/bk2.jpg" alt="" />
+    </a>
 
-<a href="assets/images/bk3.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bk3.jpg" alt="" /></a>
+    <a href="assets/images/bk3.jpg" data-fancybox="images" data-caption="2">
+	    <img src="assets/images/bk3.jpg" alt="" />
+    </a>
 
-<a href="assets/images/bk4.jpg" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bk4.jpg" alt="" /></a>
+    <a href="assets/images/bk4.jpg" data-fancybox="images" data-caption="2">
+	    <img src="assets/images/bk4.jpg" alt="" />
+    </a>
 
-<a href="assets/images/bk5.png" data-fancybox="images" data-caption="2" data-srcset="large.jpg 1600w, medium.jpg 1200w, small.jpg 640w">
-	<img src="assets/images/bk5.png" alt="" /></a>
+    <a href="assets/images/bk5.png" data-fancybox="images" data-caption="2">
+	    <img src="assets/images/bk5.png" alt="" />
+    </a>
 
-    </div>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
 <!-- Bootstrap footer section ---------------------------------------------------------------------------------------------->
 <section class="footer">
@@ -148,7 +139,7 @@
     
 <section>
     <div class="footer-copyright">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="https://mdbootstrap.com/"> MDBootstrap</a>
   </div>
 </section>
 
@@ -156,6 +147,11 @@
 </footer> 
 </section>   
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 </body>
 </html>
